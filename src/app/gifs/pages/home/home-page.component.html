@@ -1,0 +1,14 @@
+<div class="row p-3">
+
+    <!-- Barra de búsqueda -->
+    <div class="col-12">
+        <app-search-box></app-search-box>
+    </div>
+
+    <!-- Lista de gifs -->
+    <div class="col-12 pt-2">
+        <app-card-list [gifsList]="gifs"></app-card-list>
+        <!-- gifsList viene del input en card-list.component.ts -->
+    </div>
+</div>
+
